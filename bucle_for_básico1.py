@@ -14,12 +14,13 @@ while i > 5 and i < 1000:
 #3) Contar, a la manera del Dojo
 y = 1
 while y > 0 and y <= 100:
-    print(y)
-    y = y + 1
-    if y % 5 == 0:
-        print("Coding")
     if y % 10 == 0:
         print("Coding Dojo")
+    elif y % 5 == 0:
+        print("Coding")
+    else:
+        print(y)
+    y = y + 1
 
 
 #4) Whoa. Es un gran idiota
